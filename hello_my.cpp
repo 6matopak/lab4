@@ -1,8 +1,13 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
     using namespace std;
-    cout << "Hello World!"<<endl;
+    setlocale(LC_ALL, "Russian");
+    string name;
+    cout << "Введите имя" << endl;
+    cin >> name;
+    cout << "Hello World from "<<name<<endl;
 }
 
