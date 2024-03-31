@@ -3,11 +3,12 @@
 
 int main()
 {
-    using namespace std;
+    using namespace ;
     setlocale(LC_ALL, "Russian");
     string name;
-    cout << "Введите имя" << endl;
-    cin >> name;
-    cout << "Hello World from "<<name<<endl;
+    std::cout << "Введите имя" << std::endl
+    std::cin >> name;
+    std::cout << "Hello World from "<<name<<std::endl;
+	return(0);
 }
 
